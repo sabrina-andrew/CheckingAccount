@@ -11,7 +11,7 @@ namespace Banking
         public void Deposit(decimal amount)
         {
             Balance = Balance + amount;
-            // Or Balance += amount;
+            // Short cut!  Balance += amount;
         }
         public void Withdraw(decimal amount)
         {
