@@ -16,7 +16,7 @@ namespace Banking
         public void Withdraw(decimal amount)
         {
             Balance = Balance - amount;
-            //Could also be Balance -= amount;
+            //Shortcut! Could also be Balance -= amount;
         }
     }
 }
